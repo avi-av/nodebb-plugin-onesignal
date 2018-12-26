@@ -215,9 +215,9 @@ function pushToUid(uid, notifObj, players, settings, app_id) {
 
 onesignal.addMenuItem = function(custom_header, callback) {
 	custom_header.plugins.push({
-		"route": '/plugins/onesignal',
-		"icon": 'fa-mobile',
-		"name": 'OneSignal'
+		route: '/plugins/onesignal',
+		icon: 'fa-mobile',
+		name: 'OneSignal'
 	});
 
 	callback(null, custom_header);
